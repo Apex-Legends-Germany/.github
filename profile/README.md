@@ -5,10 +5,11 @@
 - **Kategorien:**<br>
     - [Was ist Slash?](#slash-commands-)
     - [Automatische Voice-Channel]() <!-- Soon -->
-    - [Slash im Voice-Chanel](#Befehle-innerhalb-der-temporären-Channel:)
-    - [Time to moderate](#Moderation-mit-Slash:-)
-    - [Unser Ticketsystem](#Unser-Ticketsystem:-)
-    - [Verwendung und Beispiele](#Anwendung-und-Bespiele:-)
+    - [Slash im Voice-Chanel](#befehle-innerhalb-der-temporären-channel-)
+    - [Slash außerhalb temp channel](#befehle-außerhalb-der-vocie-channel-)
+    - [Time to moderate](#moderation-mit-slash-)
+    - [Unser Ticketsystem](#unser-ticketsystem-)
+    - [Verwendung und Beispiele](#anwendung-und-bespiele-)
 ---
 <br>
 
@@ -24,29 +25,31 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 
 ## **Befehle innerhalb der temporären Channel: <img src="https://cdn.discordapp.com/emojis/919240209265225790.png?size=96" height="18">**<br>
 <!-- Slashs für Nutzer -->
-*Diese Befehle kann jeder User benutzen*
-> [/channel bitrate]<br>
-> /channel info<br>
-> /channel kick<br>
-> /channel limit<br>
-> /channel name<br>
-> /channel unlimit<br>
-> /channel privte<br>
-> /channel public<br>
-> /channel transfer<br>
-> /lfg<br>
+*Diese Befehle kann jeder User benutzen*<br>
+[Mehr Information über diese Befehle.](#slash-befehle-innerhalb-der-temporären-channel)
+- [/channel bitrate]<br>
+- /channel info<br>
+- /channel kick<br>
+- /channel limit<br>
+- /channel name<br>
+- /channel unlimit<br>
+- /channel privte<br>
+- /channel public<br>
+- /channel transfer<br>
+- /lfg<br>
 ---
 
 
 ## **Befehle Außerhalb der Vocie-Channel:** <img src="https://cdn.discordapp.com/emojis/919244135779688549.png?size=96" height=18><br>
-*Befehle welche von jedem genutzt werden können und man in keinem Voice-Channel sein muss.*
-> /all<br>
-> /tags<br>
-> /timestamp<br>
-> /<br>
-> /<br>
-> /<br>
-> /<br>
+*Befehle welche von jedem genutzt werden können und man in keinem Voice-Channel sein muss.*<br>
+[Mehr Information über diese Befehle.](#slash-befehle-außerhalb-der-temporären-channel)
+- /all<br>
+- /tags<br>
+- /timestamp<br>
+- /<br>
+- /<br>
+- /<br>
+- /<br>
 ---
 <br>
 
@@ -80,12 +83,12 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 ## **Unser Ticketsystem** 🎫<br>
 <!-- Commands für das Ticketsystem -->
 *Befehle für das Ticketsystem. Wir empfehlen die Benutzung der Buttons*
-> $close - `Schließt das Ticket.`<br>
-> $add @user - `Füge einen Nutzer zu einem Ticket hinzu-`<br> 
-> $remove @user - `Entferne einen Nutzer von einem Ticket.`<br>
-> $transcript - `Erstellt ein HTML-Script im` [test]() `channel`.<br>
-> $delete - `Löscht das Ticket (Nur mit Senior oder Head möglich).`<br>
-> $rename name - `Ändert den Namen eines Tickets.`<p>
+> `$close` - Schließt das Ticket.<br>
+> `$add @user` - Füge einen Nutzer zu einem Ticket hinzu.<br> 
+> `$remove @user` - Entferne einen Nutzer von einem Ticket.<br>
+> `$transcript` - Erstellt ein HTML-Script im [ticketsystem-logs-etc](https://discord.com/channels/542304652381782016/917075476135174234) channel.<br>
+> `$delete` - Löscht das Ticket (Nur mit Senior oder Head möglich).<br>
+> `$rename name` - Ändert den Namen eines Tickets.<p>
 ---
 ---
 <br>
@@ -146,7 +149,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 <br>
 <br>
 
-### **Slash-Befehle außerhab der temporären Channel:**
+### **Slash-Befehle außerhalb der temporären Channel:**
 *Hier findest du alle Befehle, deren Anwendung und entspr. Beispiele.*
 * >/all
     * Der all Befehl zeigt dir eine Übersicht aller Befehle des ALG-Bots.<br>
