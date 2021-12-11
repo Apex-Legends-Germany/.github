@@ -57,8 +57,8 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 
 <!-- Slashs für Moderation -->
 ## **Moderation mit Slash: 🔨**<br>
-<!-- Slashs für Moderation -->
-*Alle Befehle welche hier Aufgelistet sind, stehen nur Moderatoren zur Verfügung. Diese Befehle werden nur im [BOT-Channel](https://canary.discord.com/channels/542304652381782016/787743729275633726) ausgefüht!*
+*Alle Befehle welche hier Aufgelistet sind, stehen nur Moderatoren zur Verfügung. Diese Befehle werden nur im [BOT-Channel](https://canary.discord.com/channels/542304652381782016/787743729275633726) ausgefüht!*<br>
+[Mehr Information über diese Befehle.](#moderation-mit-slash--1)
 - /ban<br>
 - /info<br>
 - /kick<br>
@@ -72,7 +72,8 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 [Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
 ### **Normale Befehle:**<br>
 <!-- Normale Commands für Mods -->
-*Diese normalen Befehle geben ein Embed aus und deine Nachricht welche den Befehl auslöst wird direkt gelöscht. Diese Befehle sind hilfreich um in Tickets immer mit der gleichen Nachricht zu antworten.*
+*Diese normalen Befehle geben ein Embed aus und deine Nachricht welche den Befehl auslöst wird direkt gelöscht. Diese Befehle sind hilfreich um in Tickets immer mit der gleichen Nachricht zu antworten.*<br>
+[Mehr Information über diese Befehle.](#nomale-befehle)
 - %18<br>
 - %expert<br>
 - %nexttry<br>
@@ -214,7 +215,8 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     * Ein Nutzer pingt das Team oder fragt nach wann endlich Supportet wird.<br>
     [Embed ansehen](https://i.imgur.com/3l1t9Av.png)<p>
 * `%ticktsystem`
-    * Dieser Befehl postet ebenfalls ein Embed, ist allerdings nur für den internen Bereich gedacht. Dieser gibt dir nochmal eine Übersicht der Befehle welche mit `%` beginnnen.<br>
+    * Alias: %ts<br>
+    Dieser Befehl postet ebenfalls ein Embed, ist allerdings nur für den internen Bereich gedacht welches er dir ein Embed mit der Übersicht alles `%` Befehle gibt.<br>
 <br>
 <br>
 
