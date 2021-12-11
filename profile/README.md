@@ -27,7 +27,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 <!-- Slashs für Nutzer -->
 *Diese Befehle kann jeder User benutzen*<br>
 [Mehr Information über diese Befehle.](#slash-befehle-innerhalb-der-temporären-channel)
-- [/channel bitrate]<br>
+- /channel bitrate<br>
 - /channel info<br>
 - /channel kick<br>
 - /channel limit<br>
@@ -37,8 +37,9 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 - /channel public<br>
 - /channel transfer<br>
 - /lfg<br>
----
 
+---
+[Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
 
 ## **Befehle Außerhalb der Vocie-Channel:** <img src="https://cdn.discordapp.com/emojis/919244135779688549.png?size=96" height=18><br>
 *Befehle welche von jedem genutzt werden können und man in keinem Voice-Channel sein muss.*<br>
@@ -65,7 +66,10 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 - /note<br>
 - /ping<br >
 - /warn<br>
+
+
 ---
+[Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
 ### **Normale Befehle:**<br>
 <!-- Normale Commands für Mods -->
 *Diese normalen Befehle geben ein Embed aus und deine Nachricht welche den Befehl auslöst wird direkt gelöscht. Diese Befehle sind hilfreich um in Tickets immer mit der gleichen Nachricht zu antworten.*
@@ -79,6 +83,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 - %ticktsystem<br>
 ---
 <br>
+<br>
 
 ## **Unser Ticketsystem** 🎫<br>
 <!-- Commands für das Ticketsystem -->
@@ -91,8 +96,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 - `$rename name` - Ändert den Namen eines Tickets.<p>
 ---
 ---
-<br>
-<br>
+[Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
 <br> 
 
 
@@ -147,16 +151,15 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     **Verwendung:**<br>
     [`/lfg plattform:pc text:Suche eine Spieler`](https://i.imgur.com/Fh8HoxB.png)<p>
 ---
-<br>
-<br>
+[Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
 
 ### **Slash-Befehle außerhalb der temporären Channel:**
 *Hier findest du alle Befehle, deren Anwendung und entspr. Beispiele.*
-* >/all
+* `/all`
     * Der all Befehl zeigt dir eine Übersicht aller Befehle des ALG-Bots.<br>
     **Verwendung:**<br>
     [`/all`](https://i.imgur.com/FbMlckL.png)<p>
-* >/tags
+* `/tags`
     * Tags sind feste Embed welche in einem beliebigen Channel gepostet werden können. Es stehen aktuell [ALGinfo](https://i.imgur.com/mOH3SxH.png), [Socials](https://i.imgur.com/9GP1aBA.png), [Suche](https://i.imgur.com/aOvbyIh.png), [Down](https://i.imgur.com/lUEoT1K.png) zur Verfügung.<br>
     **Verwendung:**<br>
     [`/tags type:ALGinfo`](https://i.imgur.com/cDvu5Aq.png)<p>
@@ -166,49 +169,53 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 
 ###  **Moderation mit Slash: 🔨**
 *Hier findest du Beispiele für die Anwendung der Moderation-Befehle.*
-* /ban
+* `/ban`
     * Description
-* /info
+* `/info`
     * Description
-* /kick
+* `/kick`
     * Description
-* /modlog
+* `/modlog`
     * Description
-* /note
+* `/note`
     * Description
-* /ping
+* `/ping`
     * Description
-* /warn
+* `/warn`
     * Description<p>
 ---
-<br>
+[Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
 
 ### **Nomale Befehle:**
 *Diese normalen Befehle geben ein Embed aus und deine Nachricht welche den Befehl auslöst wird direkt gelöscht. Diese Befehle sind hilfreich um in Tickets immer mit der gleichen Nachricht zu antworten.*<br>
 *Tipp: Ihr könnt auch Nutzer "silent-pingen" indem ihr einfach an eurem Befehl ein @user schreibt.*
-* >%18
+* `%18`
     * Alias: %18+, %ü18<br>
     Fragt ein Nutzer nach Ü18 kann man diesen Befehl nutzen.<br>
     [Embed ansehen](https://i.imgur.com/p5581qT.png)<p>
-* >%expert
+* `%expert`
     * Alias: %skilled<br>
     Ein Nutzer macht ein Ticket auf oder fragt im Chat wie man die Skilled oder Expert-Rolle bekommen kann.<br>
     [Embed ansehen](https://i.imgur.com/06I5XQw.png)<p>
-* >%nexttry
+* `%nexttr`
     * Alias: %try, %next<br>
     Hat ein Nutzer ein Ticket eröffnet aber bisher immer noch nichtsgeschreiben. Ihr diesen Befehl nutzen um den Nutzer darauf hinzuweisen. Empfehlenswert mit Silent-Ping<br>
     [Embed ansehen](https://i.imgur.com/gUuqKuX.png)<p>
-* >%nickname
+* `%nickname`
     * Der Nickname eines Nutzer vestößt gegen die ToS von Disord bzw. gegen unsere [#server-regeln](https://discord.com/channels/542304652381782016/560975462319390720) so ist diese Embed am besten.<br>
     [Embed ansehen](https://i.imgur.com/cJlAJai.png)<p>
-* >%scam
+* `%scam`
     * Sollte ein Nutzer einen Scam reporten.<br>
     [Embed ansehen](https://i.imgur.com/e1lz90Q.png)<p>
-* >%sup
-    * Falls die Bearbeitung es Ticket etwas dauert oder man investigieren muss ist dieser Befehl hilfreich.
+* `%sup`
+    * Falls die Bearbeitung es Ticket etwas dauert oder man investigieren muss ist dieser Befehl hilfreich.<br>
     [Embed ansehen](https://i.imgur.com/7zCX0Ht.png)<p>
-* >%supporttime
+* `%time`
     * Ein Nutzer pingt das Team oder fragt nach wann endlich Supportet wird.<br>
     [Embed ansehen](https://i.imgur.com/3l1t9Av.png)<p>
-* >%ticktsystem
-    * Dieser Befehl postet ebenfalls ein Embed, ist allerdings nur für den internen Bereich gedacht. Dieser gibt dir nochmal eine Übersicht der Befehle welche mit `%` beginnnen.
+* `%ticktsystem`
+    * Dieser Befehl postet ebenfalls ein Embed, ist allerdings nur für den internen Bereich gedacht. Dieser gibt dir nochmal eine Übersicht der Befehle welche mit `%` beginnnen.<br>
+<br>
+<br>
+
+[Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
