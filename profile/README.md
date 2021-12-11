@@ -3,7 +3,7 @@
 
 ## **Überischt:**
 - **Kategorien:**<br>
-    - [Was ist Slash?](#Slash-Commands?-)
+    - [Was ist Slash?](#**Slash-Commands?**)
     - [Automatische Voice-Channel]() <!-- Soon -->
     - [Slash im Voice-Chanel](#Befehle-innerhalb-der-temporären-Channel:)
     - [Time to moderate](#Moderation-mit-Slash:-)
@@ -12,7 +12,7 @@
 ---
 <br>
 
-## **Slash-Commands? **<p> <!-- Einleitung -->
+## **Slash-Commands?**<p> <!-- Einleitung -->
 **Was sind Slash Commands eigentlich?**<br>
 Slash Commands sind eine direkte Interaktion mit dem Bot.<p>
 **Was ist der Unterschied zwischen Slash-Command und `.` oder `vc/` ?**<br>
