@@ -3,7 +3,7 @@
 
 ## **Überischt:**
 - **Kategorien:**<br>
-    - [Was ist Slash?](##slash-commands-)
+    - [Was ist Slash?](#slash-commands-)
     - [Automatische Voice-Channel]() <!-- Soon -->
     - [Slash im Voice-Chanel](#Befehle-innerhalb-der-temporären-Channel:)
     - [Time to moderate](#Moderation-mit-Slash:-)
