@@ -111,7 +111,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     **Verwendung:**<br>
     [`/channel bitrate bitrate:150`](https://i.imgur.com/8hq41Ea.png)<p>
 * `/channel info`
-    * Bekomme eine Information über deinen Channel in welchem du dich aktuell befindest.
+    * Bekomme eine Information über deinen Channel in welchem du dich aktuell befindest.<br>
     **Verwendung:**<br>
     [`/channel info`](https://i.imgur.com/QnbCxAU.png)<p>
 * `/channel kick`
