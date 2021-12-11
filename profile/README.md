@@ -17,7 +17,7 @@
 **Was sind Slash Commands eigentlich?**<br>
 Slash Commands sind eine direkte Interaktion mit dem Bot.<p>
 **Was ist der Unterschied zwischen Slash-Command und `.` oder `vc/` ?**<br>
-Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer hört und in *fast* jedem Channel darauf achtet. Mit Slash-Commands spricht du einen Bot direkt an und er führt dann den entsprechenden Befehl aus. Es gibt somit keine Verzögerung zwischen dem Lesen der Nachricht und der Ausführung des Befehls.<p>
+Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer hört und in *fast* jedem Channel darauf achtet. Mit Slash-Commands sprichst du ein Bot direkt an und er führt dann den entsprechenden Befehl aus. Es gibt somit keine Verzögerung zwischen dem Lesen der Nachricht und der Ausführung des Befehls.<p>
 
 ---
 <br>
@@ -41,7 +41,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 ---
 [Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
 
-## **Befehle Außerhalb der Vocie-Channel:** <img src="https://cdn.discordapp.com/emojis/919244135779688549.png?size=96" height=18><br>
+## **Befehle Außerhalb der Voice-Channel:** <img src="https://cdn.discordapp.com/emojis/919244135779688549.png?size=96" height=18><br>
 *Befehle welche von jedem genutzt werden können und man in keinem Voice-Channel sein muss.*<br>
 [Mehr Information über diese Befehle.](#slash-befehle-außerhalb-der-temporären-channel)
 - /all<br>
@@ -57,7 +57,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 
 <!-- Slashs für Moderation -->
 ## **Moderation mit Slash: 🔨**<br>
-*Alle Befehle welche hier Aufgelistet sind, stehen nur Moderatoren zur Verfügung. Diese Befehle werden nur im [BOT-Channel](https://canary.discord.com/channels/542304652381782016/787743729275633726) ausgefüht!*<br>
+*Alle Befehle welche hier Aufgelistet sind, stehen nur Moderatoren zur Verfügung. Diese Befehle werden nur im [BOT-Channel](https://canary.discord.com/channels/542304652381782016/787743729275633726) ausgeführt!*<br>
 [Mehr Information über diese Befehle.](#moderation-mit-slash--1)
 - /ban<br>
 - /info<br>
@@ -106,7 +106,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 ### **Slash-Befehle innerhalb der temporären Channel:**
 *Hier findest du alle Befehle, deren Anwendung und entspr. Beispiele.*
 * `/channel bitrate`
-    * Stelle eine Serverweite Birate für dich ein. Jedes mal wenn du einen Channel eröffnest wird deine persönliche Bitrate auf den Channel angewandt.<br>
+    * Stelle eine Serverweite Bitrate für dich ein. Jedes mal wenn du einen Channel eröffnest wird deine persönliche Bitrate auf den Channel angewandt.<br>
     Haben mehrere Nutzer in deinem Channel eine eigne Bitrate wird der Durchschnitt der Bitrates genommen und gesetzt.<br>
     **Verwendung:**<br>
     [`/channel bitrate bitrate:150`](https://i.imgur.com/8hq41Ea.png)<p>
@@ -125,7 +125,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     [`/channel limit größe:6`](https://i.imgur.com/W5OSyda.png)<br>
     [`/channel limit`](https://i.imgur.com/W5OSyda.png)<p>
 * `/channel name`
-    * Hiermit kannst du den Namen des Channels ändern. Es sind allerdings bestimmte Nachem möglich welche du mit [/help channel:name](https://i.imgur.com/cNWGXDT.png) sehen kannst. <br>
+    * Hiermit kannst du den Namen des Channels ändern. Es sind allerdings bestimmte Wörter möglich welche du mit [/help channel:name](https://i.imgur.com/cNWGXDT.png) sehen kannst. <br>
     Warum haben wir eine Whitelist drin?<br>
     Bestimmt Wörter sind auf Discord (als Channel-Name) nicht erlaubt.<br>
     **Verwendung:**<br>
@@ -136,11 +136,11 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     **Verwendung:**<br>
     [`/channel unlimit`](https://i.imgur.com/eaNSRAH.png)<p>
 * `/channnel private`
-    * Dieser Befehl macht deinen Channel privat indem er über deinem Channel einen neuen Channel Namens: ⇩ Join (username) erstellt. Nun können Nutzer dir eine Anfrage zum beitreten schicken indem sie deinem ⇩ Join (username) Channel joinen. Es wird eine Automatische Nachricht verfasst dun du kannst diese dann annehmen oder ablehnen.<br>
+    * Dieser Befehl macht deinen Channel privat indem er über deinem Channel einen neuen Channel Namens: ⇩ Join (username) erstellt. Nun können Nutzer dir eine Anfrage zum beitreten schicken indem sie deinem ⇩ Join (username) Channel joinen. Es wird eine Automatische Nachricht verfasst und du kannst diese dann annehmen oder ablehnen.<br>
     **Verwendung:**<br>
     [`/channel private`](https://i.imgur.com/p0r6XF6.png)<p>
 * `/channel public`
-    * Wenn du einen privaten Channel hast kannst du mit diesem Befehl den Channel wieder Sichtbar machen.<br>
+    * Wenn du einen privaten Channel hast kannst du mit diesem Befehl den Channel wieder sichtbar machen.<br>
     **Verwendung:**<br>
     [`/channel public`](https://i.imgur.com/77BraGy.png)<p>
 * `/channel transfer`
@@ -148,7 +148,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     **Verwendung:**<br>
     [`/channel transfer nutzer:@user`](https://i.imgur.com/8R00SHu.png)<p>
 * `/lfg`
-    * Suche! Dieser Befehl schickt einen Channelinvite abhängig deiner Rollen (pc/ ps) in die entsprechende Spielersuche. Wenn du entspr. Rollen hast brauchst du kein Plattform angeben. Hast du keine Rollen welche deine Plattform zeigen so musst du eine angeben. Du kannst optional auch ein Text angeben und somit deinen Anfrage etwas spezifizieren. Diesen Befehl kannst du nur in den vc/commands ausführen.<br>
+    * Suche! Dieser Befehl schickt einen Channelinvite abhängig deiner Rollen (pc/ ps) in die entsprechende Spielersuche. Wenn du entspr. Rollen hast brauchst du keine Plattform angeben. Hast du keine Rollen welche deine Plattform zeigen so musst du eine angeben. Du kannst optional auch ein Text angeben und somit deine Anfrage etwas spezifizieren. Diesen Befehl kannst du nur in den vc/commands ausführen.<br>
     **Verwendung:**<br>
     [`/lfg plattform:pc text:Suche eine Spieler`](https://i.imgur.com/Fh8HoxB.png)<p>
 ---
@@ -198,12 +198,12 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     * Alias: %skilled<br>
     Ein Nutzer macht ein Ticket auf oder fragt im Chat wie man die Skilled oder Expert-Rolle bekommen kann.<br>
     [Embed ansehen](https://i.imgur.com/06I5XQw.png)<p>
-* `%nexttr`
+* `%nexttry`
     * Alias: %try, %next<br>
-    Hat ein Nutzer ein Ticket eröffnet aber bisher immer noch nichtsgeschreiben. Ihr diesen Befehl nutzen um den Nutzer darauf hinzuweisen. Empfehlenswert mit Silent-Ping<br>
+    Hat ein Nutzer ein Ticket eröffnet aber bisher immer noch nichts geschreiben. Ihr diesen Befehl nutzen um den Nutzer darauf hinzuweisen. Empfehlenswert mit Silent-Ping<br>
     [Embed ansehen](https://i.imgur.com/gUuqKuX.png)<p>
 * `%nickname`
-    * Der Nickname eines Nutzer vestößt gegen die ToS von Disord bzw. gegen unsere [#server-regeln](https://discord.com/channels/542304652381782016/560975462319390720) so ist diese Embed am besten.<br>
+    * Der Nickname eines Nutzer verstößt gegen die ToS von Disord bzw. gegen unsere [#server-regeln](https://discord.com/channels/542304652381782016/560975462319390720) so ist diese Embed am besten.<br>
     [Embed ansehen](https://i.imgur.com/cJlAJai.png)<p>
 * `%scam`
     * Sollte ein Nutzer einen Scam reporten.<br>
