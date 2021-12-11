@@ -58,37 +58,37 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 ## **Moderation mit Slash: 🔨**<br>
 <!-- Slashs für Moderation -->
 *Alle Befehle welche hier Aufgelistet sind, stehen nur Moderatoren zur Verfügung. Diese Befehle werden nur im [BOT-Channel](https://canary.discord.com/channels/542304652381782016/787743729275633726) ausgefüht!*
-> /ban<br>
-> /info<br>
-> /kick<br>
-> /modlog<br>
-> /note<br>
-> /ping<br >
-> /warn<br>
+- /ban<br>
+- /info<br>
+- /kick<br>
+- /modlog<br>
+- /note<br>
+- /ping<br >
+- /warn<br>
 ---
 ### **Normale Befehle:**<br>
 <!-- Normale Commands für Mods -->
 *Diese normalen Befehle geben ein Embed aus und deine Nachricht welche den Befehl auslöst wird direkt gelöscht. Diese Befehle sind hilfreich um in Tickets immer mit der gleichen Nachricht zu antworten.*
-> %18<br>
-> %expert<br>
-> %nexttry<br>
-> %nickname<br>
-> %scam<br>
-> %sup<br>
-> %supporttime<br>
-> %ticktsystem<br>
+- %18<br>
+- %expert<br>
+- %nexttry<br>
+- %nickname<br>
+- %scam<br>
+- %sup<br>
+- %supporttime<br>
+- %ticktsystem<br>
 ---
 <br>
 
 ## **Unser Ticketsystem** 🎫<br>
 <!-- Commands für das Ticketsystem -->
 *Befehle für das Ticketsystem. Wir empfehlen die Benutzung der Buttons*
-> `$close` - Schließt das Ticket.<br>
-> `$add @user` - Füge einen Nutzer zu einem Ticket hinzu.<br> 
-> `$remove @user` - Entferne einen Nutzer von einem Ticket.<br>
-> `$transcript` - Erstellt ein HTML-Script im [ticketsystem-logs-etc](https://discord.com/channels/542304652381782016/917075476135174234) channel.<br>
-> `$delete` - Löscht das Ticket (Nur mit Senior oder Head möglich).<br>
-> `$rename name` - Ändert den Namen eines Tickets.<p>
+- `$close` - Schließt das Ticket.<br>
+- `$add @user` - Füge einen Nutzer zu einem Ticket hinzu.<br> 
+- `$remove @user` - Entferne einen Nutzer von einem Ticket.<br>
+- `$transcript` - Erstellt ein HTML-Script im [ticketsystem-logs-etc](https://discord.com/channels/542304652381782016/917075476135174234) channel.<br>
+- `$delete` - Löscht das Ticket (Nur mit Senior oder Head möglich).<br>
+- `$rename name` - Ändert den Namen eines Tickets.<p>
 ---
 ---
 <br>
@@ -100,51 +100,52 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 <!-- Anwendung der Befehle und entspr. Beispiele -->
 ### **Slash-Befehle innerhalb der temporären Channel:**
 *Hier findest du alle Befehle, deren Anwendung und entspr. Beispiele.*
-* >/channel bitrate
+* `/channel bitrate`
     * Stelle eine Serverweite Birate für dich ein. Jedes mal wenn du einen Channel eröffnest wird deine persönliche Bitrate auf den Channel angewandt.<br>
     Haben mehrere Nutzer in deinem Channel eine eigne Bitrate wird der Durchschnitt der Bitrates genommen und gesetzt.<br>
-    `Verwendung:`<br>
-    [/channel bitrate bitrate: 150](https://i.imgur.com/8hq41Ea.png)<p>
-* >/channel info
+    **Verwendung:**<br>
+    [`/channel bitrate bitrate:150`](https://i.imgur.com/8hq41Ea.png)<p>
+* `/channel info`
     * Bekomme eine Infomation über deinen Channel in welchem du dich aktuell befindest.
-    `Verwendung:`<br>
-    [/channel info](https://i.imgur.com/QnbCxAU.png)<p>
-* >/channel kick
+    **Verwendung:**<br>
+    [`/channel info`](https://i.imgur.com/QnbCxAU.png)<p>
+* `/channel kick`
     * Du möchtest jemanden aus deinem Channel kicken? Dann hiermit!<br>
     Nach [ausführung des Befehls](https://i.imgur.com/a0CGlAF.png) haben die Teilnehmer des Channels 2 Minuten Zeit zu abzustimmen. Sollte innerhalb der 2 Minuten nicht abgestimmt werden wird der Nutzer nicht aus dem Channel gekickt. Zusätzlich **kannst** du einen Grund angeben warum du den Nutzer kicken möchtest.<br>
-    `Verwendung:`<br>
-    [/channel kick nutzer:@user grund:grund](https://i.imgur.com/tanZkfj.png)<p>
-* >/channel limit
+    **Verwendung:**<br>
+    [`/channel kick nutzer:@user grund:grund`](https://i.imgur.com/tanZkfj.png)<p>
+* `/channel limit`
     * Hiermit kannst du dein Limit deines Channel erhöhen und beliebig verändern. Achte aber: das maximale Limit eines Channels in **99**! Gibst du keine größe des Channels an, so wird die aktuelle Anzahl der Nutzer in deinem Channel genommen.<br>
-    `Verwendung:`<br>
-    [/channel limit größe:6<br>/channel limit](https://i.imgur.com/W5OSyda.png)<p>
-* >/channel name
+    **Verwendung:**<br>
+    [`/channel limit größe:6`](https://i.imgur.com/W5OSyda.png)<br>
+    [`/channel limit`](https://i.imgur.com/W5OSyda.png)<p>
+* `/channel name`
     * Hiermit kannst du den Namen des Channels ändern. Es sind allerdings bestimmte Nachem möglich welche du mit [/help channel:name](https://i.imgur.com/cNWGXDT.png) sehen kannst. <br>
     Warum haben wir eine Whitelist drin?<br>
     Bestimmt Wörter sind auf Discord (als Channel-Name) nicht erlaubt.<br>
-    `Verwendung:`<br>
-    [/channel name neuer_name:Plat +1](https://i.imgur.com/dAX5cxA.png)<p>
-* >/channel unlimit
+    **Verwendung:**<br>
+    [`/channel name neuer_name:Plat +1`](https://i.imgur.com/dAX5cxA.png)<p>
+* `/channel unlimit`
     * Das Prinzip gleicht dem `limit` Befehl.<br>
     Allerdings hebt dieser Befehl das Limit deines Channels komplett auf und setzt diesen auf unbegrenzt.<br>
-    `Verwendung:`<br>
-    [/channel unlimit](https://i.imgur.com/eaNSRAH.png)<p>
-* >/channnel private
+    **Verwendung:**<br>
+    [`/channel unlimit`](https://i.imgur.com/eaNSRAH.png)<p>
+* `/channnel private`
     * Dieser Befehl macht deinen Channel privat indem er über deinem Channel einen neuen Channel Namens: ⇩ Join (username) erstellt. Nun können Nutzer dir eine Anfrage zum beitreten schicken indem sie deinem ⇩ Join (username) Channel joinen. Es wird eine Automatische Nachricht verfasst dun du kannst diese dann annehmen oder ablehnen.<br>
-    `Besipiel:`<br>
-    [/channel private](https://i.imgur.com/p0r6XF6.png)<p>
-* >/channel public
+    **Verwendung:**<br>
+    [`/channel private`](https://i.imgur.com/p0r6XF6.png)<p>
+* `/channel public`
     * Wenn du einen privaten Channel hast kannst du mit diesem Befehl den Channel wieder Sichtbar machen.<br>
-    `Besipiel:`<br>
-    [/channel public](https://i.imgur.com/77BraGy.png)<p>
-* >/channel transfer
+    **Verwendung:**<br>
+    [`/channel public`](https://i.imgur.com/77BraGy.png)<p>
+* `/channel transfer`
     * Mit dem transfer Befehl kannst du den Owner deines Voice-Channels abgeben. Du gibt damit deine Berechtigung für den Channel ab.<br>
-    `Verwendung:`<br>
-    [/channel transfer nutzer:@user](https://i.imgur.com/8R00SHu.png)<p>
-* >/lfg
+    **Verwendung:**<br>
+    [`/channel transfer nutzer:@user`](https://i.imgur.com/8R00SHu.png)<p>
+* `/lfg`
     * Suche! Dieser Befehl schickt einen Channelinvite abhängig deiner Rollen (pc/ ps) in die entsprechende Spielersuche. Wenn du entspr. Rollen hast brauchst du kein Plattform angeben. Hast du keine Rollen welche deine Plattform zeigen so musst du eine angeben. Du kannst optional auch ein Text angeben und somit deinen Anfrage etwas spezifizieren. Diesen Befehl kannst du nur in den vc/commands ausführen.<br>
-    `Verwendung:`<br>
-    [/lfg plattform:pc text:Suche eine Spieler](https://i.imgur.com/Fh8HoxB.png)<p>
+    **Verwendung:**<br>
+    [`/lfg plattform:pc text:Suche eine Spieler`](https://i.imgur.com/Fh8HoxB.png)<p>
 ---
 <br>
 <br>
@@ -153,31 +154,31 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 *Hier findest du alle Befehle, deren Anwendung und entspr. Beispiele.*
 * >/all
     * Der all Befehl zeigt dir eine Übersicht aller Befehle des ALG-Bots.<br>
-    `Verwendung:`<br>
-    [/all](https://i.imgur.com/FbMlckL.png)<p>
+    **Verwendung:**<br>
+    [`/all`](https://i.imgur.com/FbMlckL.png)<p>
 * >/tags
     * Tags sind feste Embed welche in einem beliebigen Channel gepostet werden können. Es stehen aktuell [ALGinfo](https://i.imgur.com/mOH3SxH.png), [Socials](https://i.imgur.com/9GP1aBA.png), [Suche](https://i.imgur.com/aOvbyIh.png), [Down](https://i.imgur.com/lUEoT1K.png) zur Verfügung.<br>
-    `Verwendung:`<br>
-    [/tags type:ALGinfo](https://i.imgur.com/cDvu5Aq.png)<p>
+    **Verwendung:**<br>
+    [`/tags type:ALGinfo`](https://i.imgur.com/cDvu5Aq.png)<p>
 ---
 <br>
 <br>
 
 ###  **Moderation mit Slash: 🔨**
 *Hier findest du Beispiele für die Anwendung der Moderation-Befehle.*
-* >/ban
+* /ban
     * Description
-* >/info
+* /info
     * Description
-* >/kick
+* /kick
     * Description
-* >/modlog
+* /modlog
     * Description
-* >/note
+* /note
     * Description
-* >/ping
+* /ping
     * Description
-* >/warn
+* /warn
     * Description<p>
 ---
 <br>
