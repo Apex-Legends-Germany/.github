@@ -106,12 +106,12 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 ### **Slash-Befehle innerhalb der temporären Channel:**
 *Hier findest du alle Befehle, deren Anwendung und entspr. Beispiele.*
 * `/channel bitrate`
-    * Stelle eine Serverweite Bitrate für dich ein. Jedes mal wenn du einen Channel eröffnest wird deine persönliche Bitrate auf den Channel angewandt.<br>
+    * Stelle eine Serverweite Bitrate für dich ein. Jedes Mal, wenn du einen Channel eröffnest wird deine persönliche Bitrate auf den Channel angewandt.<br>
     Haben mehrere Nutzer in deinem Channel eine eigne Bitrate wird der Durchschnitt der Bitrates genommen und gesetzt.<br>
     **Verwendung:**<br>
     [`/channel bitrate bitrate:150`](https://i.imgur.com/8hq41Ea.png)<p>
 * `/channel info`
-    * Bekomme eine Infomation über deinen Channel in welchem du dich aktuell befindest.
+    * Bekomme eine Information über deinen Channel in welchem du dich aktuell befindest.
     **Verwendung:**<br>
     [`/channel info`](https://i.imgur.com/QnbCxAU.png)<p>
 * `/channel kick`
@@ -203,7 +203,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     Hat ein Nutzer ein Ticket eröffnet aber bisher immer noch nichts geschreiben. Ihr diesen Befehl nutzen um den Nutzer darauf hinzuweisen. Empfehlenswert mit Silent-Ping<br>
     [Embed ansehen](https://i.imgur.com/gUuqKuX.png)<p>
 * `%nickname`
-    * Der Nickname eines Nutzer verstößt gegen die ToS von Disord bzw. gegen unsere [#server-regeln](https://discord.com/channels/542304652381782016/560975462319390720) so ist diese Embed am besten.<br>
+    * Der Nickname eines Nutzers verstößt gegen die ToS von Disord bzw. gegen unsere [#server-regeln](https://discord.com/channels/542304652381782016/560975462319390720) so ist diese Embed am besten.<br>
     [Embed ansehen](https://i.imgur.com/cJlAJai.png)<p>
 * `%scam`
     * Sollte ein Nutzer einen Scam reporten.<br>
