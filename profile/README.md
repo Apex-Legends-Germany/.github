@@ -44,13 +44,11 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 ## **Befehle Außerhalb der Voice-Channel:** <img src="https://cdn.discordapp.com/emojis/919244135779688549.png?size=96" height=18><br>
 *Befehle welche von jedem genutzt werden können und man in keinem Voice-Channel sein muss.*<br>
 [Mehr Information über diese Befehle.](#slash-befehle-außerhalb-der-temporären-channel)
-- /all<br>
-- /tags<br>
-- /timestamp<br>
-- /<br>
-- /<br>
-- /<br>
-- /<br>
+- /all
+- /tags
+- /timestamp
+- /ping
+
 ---
 <br>
 
@@ -59,14 +57,15 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 ## **Moderation mit Slash: 🔨**<br>
 *Alle Befehle welche hier Aufgelistet sind, stehen nur Moderatoren zur Verfügung. Diese Befehle werden nur im [BOT-Channel](https://canary.discord.com/channels/542304652381782016/787743729275633726) ausgeführt!*<br>
 [Mehr Information über diese Befehle.](#moderation-mit-slash--1)
-- /ban<br>
-- /info<br>
-- /kick<br>
-- /modlog<br>
-- /note<br>
-- /ping<br >
-- /warn<br>
-
+- /ban
+- /unban
+- /kick
+- /modlog
+- /note
+- /warn
+- /user
+- /mute
+- /unmute
 
 ---
 [Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
@@ -120,7 +119,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     **Verwendung:**<br>
     [`/channel kick nutzer:@user grund:grund`](https://i.imgur.com/tanZkfj.png)<p>
 * `/channel limit`
-    * Hiermit kannst du dein Limit deines Channel erhöhen und beliebig verändern. Achte aber: das maximale Limit eines Channels in **99**! Gibst du keine größe des Channels an, so wird die aktuelle Anzahl der Nutzer in deinem Channel genommen.<br>
+    * Hiermit kannst du dein Limit deines Channel erhöhen und beliebig verändern. Achte aber: das maximale Limit eines Channels ist **99**! Gibst du keine größe des Channels an, so wird die aktuelle Anzahl der Nutzer in deinem Channel genommen.<br>
     **Verwendung:**<br>
     [`/channel limit größe:6`](https://i.imgur.com/W5OSyda.png)<br>
     [`/channel limit`](https://i.imgur.com/W5OSyda.png)<p>
@@ -136,7 +135,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     **Verwendung:**<br>
     [`/channel unlimit`](https://i.imgur.com/eaNSRAH.png)<p>
 * `/channnel private`
-    * Dieser Befehl macht deinen Channel privat indem er über deinem Channel einen neuen Channel Namens: ⇩ Join (username) erstellt. Nun können Nutzer dir eine Anfrage zum beitreten schicken indem sie deinem ⇩ Join (username) Channel joinen. Es wird eine Automatische Nachricht verfasst und du kannst diese dann annehmen oder ablehnen.<br>
+    * Dieser Befehl macht deinen Channel privat indem er über deinen Channel einen neuen Channel Namens: ⇩ Join (username) erstellt. Nun können Nutzer dir eine Anfrage zum beitreten schicken indem sie dem ⇩ Join (username) Channel joinen. Es wird eine Automatische Nachricht verfasst und du kannst diese dann annehmen oder ablehnen.<br>
     **Verwendung:**<br>
     [`/channel private`](https://i.imgur.com/p0r6XF6.png)<p>
 * `/channel public`
@@ -164,26 +163,62 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     * Tags sind feste Embed welche in einem beliebigen Channel gepostet werden können. Es stehen aktuell [ALGinfo](https://i.imgur.com/mOH3SxH.png), [Socials](https://i.imgur.com/9GP1aBA.png), [Suche](https://i.imgur.com/aOvbyIh.png), [Down](https://i.imgur.com/lUEoT1K.png) zur Verfügung.<br>
     **Verwendung:**<br>
     [`/tags type:ALGinfo`](https://i.imgur.com/cDvu5Aq.png)<p>
+* `/timestamp`
+    * Der Timestamp Befehel gibt dir alle Zeitstemplen in den verschiedensten Varianten aus. Diese kannst du einfach kopieren und in den Chat posten.<br>
+    Optional kannst du auch eine Zeit angeben.<br>
+    **Verwendung:**<br>
+    [`/timestamp date:01-01-2022 22:00`](https://i.imgur.com/aULox3H.png)<p>
 ---
 <br>
 <br>
 
 ###  **Moderation mit Slash: 🔨**
-*Hier findest du Beispiele für die Anwendung der Moderation-Befehle.*
+*Hier findest du Beispiele für die Anwendung der Moderations-Befehle. Jeder Befehl kann auch mit der ID des Nutzer genutzt werden.*
 * `/ban`
-    * Description
-* `/info`
-    * Description
+    * Bannt einen Nutzer permanent von dem Discord. Der Nutzer bekommt das den Grund per DM mitgeteilt. Es wird ein Grund benötigt, da sonst nicht gebannt werden kann. Optional kann man noch angeben von wie viele Tage zurück man die Nachrichten des Nutzer löschen möchte (Standard ist 7). Bans sind immer nachvollziehbar zu beschreiben. Zusätzlich sollte, wenn es die Sitation bietet, man einen Screenshot als Nachweis anhängen.<br>
+    **Verwendung:**<br>
+    [`/ban nutzer:@Tim-nT grund:Kein guter Modeartor.`](https://i.imgur.com/ADr78po.png)<p>
+* `/unban`
+    * Entbannt einen Nutzer. Ebenfalls wird auch hier **immer** ein Grund benötigt um einen Nutzer zu entbannen.<br>
+    **Verwendung:**<br>
+    [`/unban nutzer:@Tim-nT grund:Ist doch ein guter Moderator.`](https://i.imgur.com/VtLuUkQ.png)<p>
 * `/kick`
-    * Description
-* `/modlog`
-    * Description
+    * Kickt einen Nutzer von dem Discord. Ebenfalls wird auch hier **immer** ein Grund benötigt.<br>
+    **Verwendung:**<br>
+    [`/kick nutzer:@Tim-nT grund:Möchte kein Teil der Community sein.`](https://i.imgur.com/KKOtK7V.png)<p>
+* `/modlog user`
+    * Frage die Modlogs eines Nutzers ab. Ein Nutzer hat ModLogs wenn dieser verwarnt, gebannt, entbannt ..etc.. wurde. Modslogs können nur Senior-Moderatoren aufwärts gelöscht werden.<br>
+    **Verwendung:**<br>
+    [`/modlog user nutzer:275258547749650433`](https://i.imgur.com/K9UcWPv.png)<p>
+* `/modlog case`
+    * Bekomme mehr Information über eine bestimmte Case-ID.<br>
+    **Verwendung:**<br>
+    [`/modlog case case_id:5`](https://i.imgur.com/1SwUnMh.png)<p>
+* `/modlog edit`
+    * Ändere den Grund eines ModLogs. Diese Aktion ist ab Senior-Moderator begrenzt.<br>
+    **Verwendung:**<br>
+    [`/modlog edit case_id:5 grund:~edit case Nummer 5`](https://i.imgur.com/WKTblfm.png)<p>
+* `/modlog delete`
+    * Entferne einen ModLog von einem Nutzer. Diese Aktion ist ab Senior-Moderator begrenzt.<br>
+    **Verwendung:**<br>
+    [`/modlog delete case_id:5`](https://i.imgur.com/qT4tzSe.png)<p>
 * `/note`
-    * Description
-* `/ping`
-    * Description
+    * Gebe jemanden eine Notiz ohne eine DM zu versenden.<br>
+    **Verwendung:**<br>
+    [`/note nutzer:275258547749650433 note:Könnte Cheaten.`](https://i.imgur.com/1RccWhn.png)<p>
 * `/warn`
-    * Description<p>
+    * Verwarnt einen Nutzer mit einem Grund welcher ihm dann per DM geschickt wird. Der Grund wird hier ebenfalls benötigt. <br>
+    **Verwendung:**<br>
+    [`/warn nuzer:275258547749650433 grund:Verhalten im Chat geht nicht klar`](https://i.imgur.com/zRGqkyH.png)<p>
+* `/mute`
+    * Mute jemanden permanent. (Over Time kommt zu einem späteren Zeitpunkt.)<br>
+    **Verwendung:**<br>
+    [`/mute nutzer:275258547749650433 grund:Spammen von Emotes`](https://i.imgur.com/9kB3t8R.png)
+* `/unmute`
+    * Jemanden unmuten der gemuted wurde. Der Nutzer bekommt dann den Grund als DM.<br>
+    **Verwendung:**<br>
+    [`/unmute nutzer:@Tim-nT grund:Strafzeit abgesessen.`](https://i.imgur.com/czYUyDB.png)
+
 ---
 [Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
 
