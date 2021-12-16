@@ -7,7 +7,8 @@
     - [Automatische Voice-Channel]() <!-- Soon -->
     - [Slash im Voice-Chanel](#befehle-innerhalb-der-temporären-channel-)
     - [Slash außerhalb temp channel](#befehle-außerhalb-der-vocie-channel-)
-    - [Time to moderate](#moderation-mit-slash-)
+    - [Moderation mit Slash](#moderation-mit-slash-)
+    - [Moderation mit Slash (Verwendung)](#moderation-mit-slash--1)
     - [Unser Ticketsystem](#unser-ticketsystem-)
     - [Verwendung und Beispiele](#anwendung-und-bespiele-)
 ---
