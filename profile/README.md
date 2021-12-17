@@ -219,6 +219,10 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     * Jemanden unmuten der gemuted wurde. Der Nutzer bekommt dann den Grund als DM.<br>
     **Verwendung:**<br>
     [`/unmute nutzer:@Tim-nT grund:Strafzeit abgesessen.`](https://i.imgur.com/czYUyDB.png)
+* `/user`
+    * Bekomme nützliche Informationen über einen Nurtzer. (gleich wie /info)<br>
+    **Verwendung:**<br>
+    [`/user nutzer:@Tim`](https://i.imgur.com/61u40dM.png)<p>
 
 ---
 [Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
