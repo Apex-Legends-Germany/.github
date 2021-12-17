@@ -4,7 +4,7 @@
 ## **Überischt:**
 - **Kategorien:**<br>
     - [Was ist Slash?](#slash-commands-)
-    - [Automatische Voice-Channel]() <!-- Soon -->
+    <!--- [Automatische Voice-Channel]()  Soon -->
     - [Slash im Voice-Chanel](#befehle-innerhalb-der-temporären-channel-)
     - [Slash außerhalb temp channel](#befehle-außerhalb-der-vocie-channel-)
     - [Moderation mit Slash](#moderation-mit-slash-)
