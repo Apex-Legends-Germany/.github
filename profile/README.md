@@ -59,6 +59,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 *Alle Befehle welche hier Aufgelistet sind, stehen nur Moderatoren zur Verfügung. Diese Befehle werden nur im [BOT-Channel](https://canary.discord.com/channels/542304652381782016/787743729275633726) ausgeführt!*<br>
 [Mehr Information über diese Befehle.](#moderation-mit-slash--1)
 - /ban
+- /scamban
 - /unban
 - /kick
 - /modlog
@@ -179,6 +180,10 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     * Bannt einen Nutzer permanent von dem Discord. Der Nutzer bekommt das den Grund per DM mitgeteilt. Es wird ein Grund benötigt, da sonst nicht gebannt werden kann. Optional kann man noch angeben von wie viele Tage zurück man die Nachrichten des Nutzers löschen möchte (Standard ist 1). Bans sind immer nachvollziehbar zu beschreiben. Zusätzlich sollte, wenn es die Situation bietet, man einen Screenshot als Nachweis anhängen.<br>
     **Verwendung:**<br>
     [`/ban nutzer:@Tim-nT grund:Kein guter Modeartor.`](https://i.imgur.com/ADr78po.png)<p>
+* `/scamban`
+    * Banne einen Nutzer mit der Vorlage. Vorteil: Du erstparrst dir das Copy-Pasten der [Vorlage](https://i.imgur.com/oSPIpuK.png). Zusätzlich wird bei einem 2ten Ban mit `/scamban` dem Nutzer nicht mehr der Entbannungs-Discord mitgeschickt.<br>
+    **Verwendung:**<br>
+    [`/scamban nutzer:@Tim-nT`](https://i.imgur.com/sH4sZyg.png)
 * `/unban`
     * Entbannt einen Nutzer. Ebenfalls wird auch hier **immer** ein Grund benötigt um einen Nutzer zu entbannen.<br>
     **Verwendung:**<br>
