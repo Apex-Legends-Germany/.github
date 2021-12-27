@@ -65,9 +65,10 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 - /modlog
 - /note
 - /warn
-- /user
 - /mute
 - /unmute
+- /user
+- /role
 
 ---
 [Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
@@ -228,6 +229,30 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     * Bekomme nützliche Informationen über einen Nurtzer. (gleich wie /info)<br>
     **Verwendung:**<br>
     [`/user nutzer:@Tim`](https://i.imgur.com/61u40dM.png)<p>
+* `/role list`
+    * Listet alle Rolle des gesamten Servers samt Anzahl der Member und ID auf.<br>
+    **Verwendung:**<br>
+    [`/role list`](https://i.imgur.com/CP80PbD.png)<p>
+* `/role members`
+    * Bekomme alle Nutzer samt ID welche eine bestimmte Rolle besitzen. Es kann sowohl eine ID als auch eine Mention der Rolle angegeben werden.<br>
+    **Verwendung:**<br>
+    [`/role members rolle:@Admin`](https://i.imgur.com/pTVstjo.png)<p>
+* `/role count`
+    * Zählt alle Nutzer/ Bots mit der Rolle. Es kann sowohl eine ID als auch eine Mention der Rolle angegeben werden.<br>
+    **Verwendung:**<br>
+    [`/role count rolle:@Admin`](https://i.imgur.com/LAYzIMU.png)<p>
+* `/role info`
+    * Bekomme nützliche Infomationen über eine Rolle.<br>
+    **Verwendung:**<br>
+    [`/role info rolle:@Admin`](https://i.imgur.com/kzU6RtW.png)<p>
+* `/role give`
+    * Gebe jemanden eine Rolle. Es kann sowohl eine ID als auch eine Mention der Rolle/ des Nutzers angegeben werden.<br>
+    **Verwendung:**<br>
+    [`/role give rolle:@Admin nutzer:@ALG`](https://i.imgur.com/3GScruP.png)<p>
+* `/role take`
+    * Entferne jemanden eine Rolle. Es kann sowohl eine ID als auch eine Mention der Rolle/ des Nutzers angegeben werden.<br>
+    **Verwendung:**<br>
+    [`/role take rolle:@Admin nutzer:@ALG`](https://i.imgur.com/1rcZFZ6.png)
 
 ---
 [Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
