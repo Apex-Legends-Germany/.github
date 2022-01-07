@@ -210,7 +210,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     **Verwendung:**<br>
     [`/modlog delete case_id:5`](https://i.imgur.com/qT4tzSe.png)<p>
 * `/note`
-    * Gebe jemanden eine Notiz ohne eine DM zu versenden.<br>
+    * Gebe jemanden eine Notiz ohne eine DM zu versenden. *Auch nutzbar nach einem ban.*<br>
     **Verwendung:**<br>
     [`/note nutzer:275258547749650433 note:Könnte Cheaten.`](https://i.imgur.com/1RccWhn.png)<p>
 * `/warn`
