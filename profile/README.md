@@ -91,6 +91,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 ## **Unser Ticketsystem** 🎫<br>
 <!-- Commands für das Ticketsystem -->
 *Befehle für das Ticketsystem. Wir empfehlen die Benutzung der Buttons*
+- `$new` - Erstellt ein Ticket mit einem Nutzer zusammen.<br>
 - `$close` - Schließt das Ticket.<br>
 - `$add @user` - Füge einen Nutzer zu einem Ticket hinzu.<br> 
 - `$remove @user` - Entferne einen Nutzer von einem Ticket.<br>
@@ -287,7 +288,6 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 * `%ticktsystem`
     * Alias: %ts<br>
     Dieser Befehl postet ebenfalls ein Embed, ist allerdings nur für den internen Bereich gedacht welches er dir ein Embed mit der Übersicht alles `%` Befehle gibt.<br>
-<br>
-<br>
+---
+[Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br>
 
-[Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
