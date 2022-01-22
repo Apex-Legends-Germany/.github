@@ -94,7 +94,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 - `$new` - Erstellt ein Ticket mit einem Nutzer zusammen.<br>
 - `$close` - Schließt das Ticket.<br>
 - `$add @user` - Füge einen Nutzer zu einem Ticket hinzu.<br> 
-- `$remove @user` - Entferne einen Nutzer von einem Ticket.<br>
+- `$remove @user` - Entferne einen Nutzer oder Rolle von einem Ticket.<br>
 - `$transcript` - Erstellt ein HTML-Script im [ticketsystem-logs-etc](https://discord.com/channels/542304652381782016/917075476135174234) channel.<br>
 - `$delete` - Löscht das Ticket (Nur mit Senior oder Head möglich).<br>
 - `$rename name` - Ändert den Namen eines Tickets.<p>
