@@ -276,6 +276,9 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 * `%nickname`
     * Der Nickname eines Nutzers verstößt gegen die ToS von Disord bzw. gegen unsere [#server-regeln](https://discord.com/channels/542304652381782016/560975462319390720) so ist diese Embed am besten.<br>
     [Embed ansehen](https://i.imgur.com/OTn5bhS.png)<p>
+* `%rank`
+    * Postet ein permanentes Embed mit dem Hinweis darauf, wo die Ranked-Rollen zu finden sind.<br>
+    [Embed ansehen](https://i.imgur.com/iPf0CBI.png)<p>
 * `%scam`
     * Sollte ein Nutzer einen Scam reporten.<br>
     [Embed ansehen](https://i.imgur.com/e1lz90Q.png)<p>
