@@ -77,13 +77,14 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 *Diese normalen Befehle geben ein Embed aus und deine Nachricht welche den Befehl auslöst wird direkt gelöscht. Diese Befehle sind hilfreich um in Tickets immer mit der gleichen Nachricht zu antworten.*<br>
 [Mehr Information über diese Befehle.](#nomale-befehle)
 - %18<br>
-- %expert<br>
-- %nexttry<br>
+- %expert (skilled)<br>
+- %nexttry (try)<br>
 - %nickname<br>
+- %rank<br>
 - %scam<br>
 - %sup<br>
-- %supporttime<br>
-- %ticktsystem<br>
+- %supporttime (time)<br>
+- %ticktsystem (ts)<br>
 ---
 <br>
 <br>
