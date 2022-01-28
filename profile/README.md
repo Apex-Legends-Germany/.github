@@ -177,7 +177,9 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 <br>
 
 ###  **Moderation mit Slash: 🔨**
-*Hier findest du Beispiele für die Anwendung der Moderations-Befehle. Jeder Befehl kann auch mit der ID des Nutzers genutzt werden. Wichtig ist hierbei dass du den Bot auswählst und den Befehl nicht einfach in den Chat schreibst.*
+*Hier findest du Beispiele für die Anwendung der Moderations-Befehle. Jeder Befehl kann auch mit der ID des Nutzers genutzt werden. Wichtig ist hierbei dass du den Bot auswählst und den Befehl nicht einfach in den Chat schreibst. Nicht jeder Befehl ist für Moderatoren auf Probe, aber alle sind ab Moderator möglich.*
+* `/channel move`
+    * Verschiebt alle Nutzer eines Talk-Channels in einen neuen.<br>
 * `/ban`
     * Bannt einen Nutzer permanent von dem Discord. Der Nutzer bekommt das den Grund per DM mitgeteilt. Es wird ein Grund benötigt, da sonst nicht gebannt werden kann. Optional kann man noch angeben von wie viele Tage zurück man die Nachrichten des Nutzers löschen möchte (Standard ist 1). Bans sind immer nachvollziehbar zu beschreiben. Zusätzlich sollte, wenn es die Situation bietet, man einen Screenshot als Nachweis anhängen.<br>
     **Verwendung:**<br>
