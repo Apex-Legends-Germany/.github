@@ -80,7 +80,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 - %expert (skilled)<br>
 - %nexttry (try)<br>
 - %nickname<br>
-- %rank<br>
+- %rank (ranked)<br>
 - %scam<br>
 - %sup<br>
 - %supporttime (time)<br>
