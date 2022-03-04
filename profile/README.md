@@ -76,6 +76,9 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 <!-- Normale Commands für Mods -->
 *Diese normalen Befehle geben ein Embed aus und deine Nachricht welche den Befehl auslöst wird direkt gelöscht. Diese Befehle sind hilfreich um in Tickets immer mit der gleichen Nachricht zu antworten.*<br>
 [Mehr Information über diese Befehle.](#nomale-befehle)
+
+- `%unlink user_id` - Entfernt einen Nutzer aus der Datenbank der verifizierten Apex Accounts<br>
+<br>
 - %18<br>
 - %expert (skilled)<br>
 - %nexttry (try)<br>
@@ -91,14 +94,9 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 
 ## **Unser Ticketsystem** 🎫<br>
 <!-- Commands für das Ticketsystem -->
-*Befehle für das Ticketsystem. Wir empfehlen die Benutzung der Buttons*
-- `$new` - Erstellt ein Ticket mit einem Nutzer zusammen.<br>
-- `$close` - Schließt das Ticket.<br>
-- `$add @user` - Füge einen Nutzer zu einem Ticket hinzu.<br> 
-- `$remove @user` - Entferne einen Nutzer oder Rolle von einem Ticket.<br>
-- `$transcript` - Erstellt ein HTML-Script im [ticketsystem-logs-etc](https://discord.com/channels/542304652381782016/917075476135174234) channel.<br>
-- `$delete` - Löscht das Ticket (Nur mit Senior oder Head möglich).<br>
-- `$rename name` - Ändert den Namen eines Tickets.<p>
+*Befehle für das Ticketsystem. Die Nutzung der Buttons ist vorausgesetzt.*
+- `%new userID Grund` - Erstellt ein Ticket mit einem Nutzer zusammen. Der Grund ist optional und muss nicht mit angegeben werden.<br>
+- `%rename name` - Ändert den Namen eines Tickets.<br>
 ---
 ---
 [Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
@@ -173,6 +171,14 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     Optional kannst du auch eine Zeit angeben.<br>
     **Verwendung:**<br>
     [`/timestamp date:01-01-2022 22:00`](https://i.imgur.com/aULox3H.png)<p>
+* `/color`
+    * Bekomme eine Preview von einer Hex Color. *mehr Farb-Codes SoonTM*<br>
+    **Verwendung:**<br>
+    [`/color color_hex:EB144D`]()<p>
+* `/giveaway create`
+    * Erstelle ein Giveaway <br>
+    **Verwendung:**<br>
+    [`/color color_hex:EB144D`]()<p>
 ---
 <br>
 <br>
