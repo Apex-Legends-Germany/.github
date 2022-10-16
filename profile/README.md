@@ -9,6 +9,7 @@
     - [Slash außerhalb temp channel](#befehle-außerhalb-der-vocie-channel-)
     - [Moderation mit Slash](#moderation-mit-slash-)
     - [Moderation mit Slash (Verwendung)](#moderation-mit-slash--1)
+    - [Moderation mit Slash (Apex-Befehle)](#moderation-mit-slash-apex-)
     - [Unser Ticketsystem](#unser-ticketsystem-)
     - [Verwendung und Beispiele](#anwendung-und-bespiele-)
 ---
@@ -37,7 +38,6 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 - /channel privte<br>
 - /channel public<br>
 - /channel transfer<br>
-- /lfg<br>
 
 ---
 [Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
@@ -45,10 +45,14 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 ## **Befehle Außerhalb der Voice-Channel:** <img src="https://cdn.discordapp.com/emojis/919244135779688549.png?size=96" height=18><br>
 *Befehle welche von jedem genutzt werden können und man in keinem Voice-Channel sein muss.*<br>
 [Mehr Information über diese Befehle.](#slash-befehle-außerhalb-der-temporären-channel)
+- /activities
 - /all
+- /avatar
 - /tags
 - /timestamp
 - /ping
+- /geburstag
+- /patreon
 
 ---
 <br>
@@ -70,24 +74,27 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 - /user
 - /role
 
+<br>
+
+*Befehle welche außerhalb der BOT-Channels verwendet werden können.*
+- /clear
+
 ---
 [Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
 ### **Normale Befehle:**<br>
 <!-- Normale Commands für Mods -->
-*Diese normalen Befehle geben ein Embed aus und deine Nachricht welche den Befehl auslöst wird direkt gelöscht. Diese Befehle sind hilfreich um in Tickets immer mit der gleichen Nachricht zu antworten.*<br>
+*Diese normalen Befehle funktionieren nicht mit Slash, die unten sind Embed welche bei dem posten permanent bestehen bleiben.*<br>
 [Mehr Information über diese Befehle.](#nomale-befehle)
 
-- `%unlink user_id` - Entfernt einen Nutzer aus der Datenbank der verifizierten Apex Accounts<br>
-<br>
-- %18<br>
-- %expert (skilled)<br>
-- %nexttry (try)<br>
-- %nickname<br>
-- %rank (ranked)<br>
-- %scam<br>
-- %sup<br>
-- %supporttime (time)<br>
-- %ticktsystem (ts)<br>
+- 18<br>
+- expert (skilled)<br>
+- nexttry (try)<br>
+- nickname<br>
+- rank (ranked)<br>
+- scam<br>
+- sup<br>
+- supporttime (time)<br>
+- ticktsystem (ts)<br>
 ---
 <br>
 <br>
@@ -95,8 +102,10 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 ## **Unser Ticketsystem** 🎫<br>
 <!-- Commands für das Ticketsystem -->
 *Befehle für das Ticketsystem. Die Nutzung der Buttons ist vorausgesetzt.*
-- `%new userID Grund` - Erstellt ein Ticket mit einem Nutzer zusammen. Der Grund ist optional und muss nicht mit angegeben werden.<br>
-- `%rename name` - Ändert den Namen eines Tickets.<br>
+- `/ticket new user:@Tim-nT` - Erstellt ein Ticket mit einem Nutzer zusammen. Der Grund ist optional und muss nicht mit angegeben werden.<br>
+- `/ticket rename name:Neuer Name` - Ändert den Namen eines Tickets.<br>
+- `/ticket add user:@Tim-nT` - Fügt einen Nutzer/ Rolle vom Server zu einem Ticket hinzu.<br>
+- `/ticket remove user:@Tim-nT` - Entfernt einen Nutzer/ Rolle von einem Ticket.
 ---
 ---
 [Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
@@ -178,7 +187,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 * `/giveaway create`
     * Erstelle ein Giveaway <br>
     **Verwendung:**<br>
-    [`/color color_hex:EB144D`]()<p>
+    [`/color create`](https://i.imgur.com/wMp0Pvf.png)<p>
 ---
 <br>
 <br>
@@ -189,6 +198,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     * Verschiebt alle Nutzer eines Talk-Channels in einen neuen.<br>
 * `/ban`
     * Bannt einen Nutzer permanent von dem Discord. Der Nutzer bekommt das den Grund per DM mitgeteilt. Es wird ein Grund benötigt, da sonst nicht gebannt werden kann. Optional kann man noch angeben von wie viele Tage zurück man die Nachrichten des Nutzers löschen möchte (Standard ist 1). Bans sind immer nachvollziehbar zu beschreiben. Zusätzlich sollte, wenn es die Situation bietet, man einen Screenshot als Nachweis anhängen.<br>
+    Gebe nur */ban nutzer:@Tim-nT* ein um noch den Grund o.ä. zu ändern.<br>
     **Verwendung:**<br>
     [`/ban nutzer:@Tim-nT grund:Kein guter Modeartor.`](https://i.imgur.com/ADr78po.png)<p>
 * `/scamban`
@@ -199,10 +209,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     * Entbannt einen Nutzer. Ebenfalls wird auch hier **immer** ein Grund benötigt um einen Nutzer zu entbannen.<br>
     **Verwendung:**<br>
     [`/unban nutzer:@Tim-nT grund:Ist doch ein guter Moderator.`](https://i.imgur.com/VtLuUkQ.png)<p>
-* `/kick`
-    * Kickt einen Nutzer von dem Discord. Ebenfalls wird auch hier **immer** ein Grund benötigt.<br>
-    **Verwendung:**<br>
-    [`/kick nutzer:@Tim-nT grund:Möchte kein Teil der Community sein.`](https://i.imgur.com/KKOtK7V.png)<p>
+
 * `/modlog user`
     * Frage die Modlogs eines Nutzers ab. Ein Nutzer hat ModLogs wenn dieser verwarnt, gebannt, entbannt ..etc.. wurde. Modslogs können nur Senior-Moderatoren aufwärts gelöscht werden.<br>
     **Verwendung:**<br>
@@ -267,37 +274,68 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 ---
 [Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
 
+### **Moderation mit Slash (Apex-Befehle und Funktion):**
+<!-- Alles rund um die "Apex" Commands-->
+* `/apex user user:@Tim-nT`<br>
+    * Finde heraus mit welchem Apex-Account ein Nutzer verknüpft ist.<br>
+    Optional Nutzbar mit der Origin-ID um einen Discord-Nutzer zu finden.<p>
+* `/apex unlink user:@Tim-nT`<br>
+    * Entfernt die verlinkung zu einem Nutzer.<br>
+    Richtlinie: Sollte ein Nutzer gebannt o.ä. werden so die Origin Account-ID zu blacklisten!<p>
+* `/apex api origin_id:12345678 plattform:PC`<br>
+    * Eine direkte abfrage um etwaige Informationen über einen Account zu bekommen.<p>
+* `/apex autorank state:Aktivieren user:@Tim-nT`<br>
+    * Enabled oder Disabled das automatische updates eines Ranges von einem Nutzer.<p>
+* `/apex count`<br>
+    * Zeigt die wie viele Nutzer aktuell verifiziert sind<br><br>
+
+    <br>
+* `/blacklist add origin_id:12345678 reason:Cheater in Apex Discord-ID:1234567890 siehe ban oder case-ID 1234`<br>
+    * Setzt einen Apex-Account auf die Blacklist sodass ein Nutzer sich nicht mehr mit diesem Account verlinken kann! Hierbei ist die Discord-ID des ehemaligen Nutzers wichtig da sonst eine eindeutige identifizierzung nicht möglich ist! Zusätzlich ist eine **Notiz** zu dem Nutzer mit der Origin_ID o.ä. und einer Begründung wie "banned deswegen blacklist" pflicht!<p>
+* `/blacklist show account_id:12345678`<br>
+    * Lasse dir einen Eintrag aus der Blacklst anzeigen.<p>
+* `/blacklist remove origin_id:12345678`<br>
+    * Entferne einen Account von der Blacklist sodass ein Nutzer sich wieder mit dem Account verknüpfen kann.<br>
+    Im besten Fall wird hierbei nochmal Rücksprache mit den älteren Mods gehälten.
+
+
+
+---
+[Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
+
 ### **Nomale Befehle:**
 *Diese normalen Befehle geben ein Embed aus und deine Nachricht welche den Befehl auslöst wird direkt gelöscht. Diese Befehle sind hilfreich um in Tickets immer mit der gleichen Nachricht zu antworten.*<br>
-*Tipp: Ihr könnt auch Nutzer "silent-pingen" indem ihr einfach an eurem Befehl ein @user schreibt.*
-* `%18`
+*Tipp: Ihr könnt auch Nutzer "silent-pingen" indem ihr einfach an eurem Befehl ein @user schreibt.*<p>
+Alle folgenden Commands werden mit einer @ Mention an den Bot ausgeführt!<br>
+Beispiel: `@ALG 18`
+* `18`
     * Alias: %18+, %ü18<br>
     Fragt ein Nutzer nach Ü18 kann man diesen Befehl nutzen.<br>
     [Embed ansehen](https://i.imgur.com/p5581qT.png)<p>
-* `%expert`
+* `expert`
     * Alias: %skilled<br>
     Ein Nutzer macht ein Ticket auf oder fragt im Chat wie man die Skilled oder Expert-Rolle bekommen kann.<br>
     [Embed ansehen](https://i.imgur.com/06I5XQw.png)<p>
-* `%nexttry`
+* `nexttry`
     * Alias: %try, %next<br>
     Hat ein Nutzer ein Ticket eröffnet aber bisher immer noch nichts geschreiben. Ihr diesen Befehl nutzen um den Nutzer darauf hinzuweisen. Empfehlenswert mit Silent-Ping<br>
     [Embed ansehen](https://i.imgur.com/gUuqKuX.png)<p>
-* `%nickname`
+* `nickname`
     * Der Nickname eines Nutzers verstößt gegen die ToS von Disord bzw. gegen unsere [#server-regeln](https://discord.com/channels/542304652381782016/560975462319390720) so ist diese Embed am besten.<br>
     [Embed ansehen](https://i.imgur.com/OTn5bhS.png)<p>
-* `%rank`
+* `rank`
     * Postet ein permanentes Embed mit dem Hinweis darauf, wo die Ranked-Rollen zu finden sind.<br>
     [Embed ansehen](https://i.imgur.com/iPf0CBI.png)<p>
-* `%scam`
+* `scam`
     * Sollte ein Nutzer einen Scam reporten.<br>
     [Embed ansehen](https://i.imgur.com/e1lz90Q.png)<p>
-* `%sup`
+* `sup`
     * Falls die Bearbeitung es Ticket etwas dauert oder man investigieren muss ist dieser Befehl hilfreich.<br>
     [Embed ansehen](https://i.imgur.com/7zCX0Ht.png)<p>
-* `%time`
+* `time`
     * Ein Nutzer pingt das Team oder fragt nach wann endlich Supportet wird.<br>
     [Embed ansehen](https://i.imgur.com/3l1t9Av.png)<p>
-* `%ticktsystem`
+* `ticktsystem`
     * Alias: %ts<br>
     Dieser Befehl postet ebenfalls ein Embed, ist allerdings nur für den internen Bereich gedacht welches er dir ein Embed mit der Übersicht alles `%` Befehle gibt.<br>
 ---
