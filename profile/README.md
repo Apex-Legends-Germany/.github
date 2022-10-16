@@ -9,7 +9,7 @@
     - [Slash außerhalb temp channel](#befehle-außerhalb-der-vocie-channel-)
     - [Moderation mit Slash](#moderation-mit-slash-)
     - [Moderation mit Slash (Verwendung)](#moderation-mit-slash--1)
-    - [Moderation mit Slash (Apex-Befehle)](#moderation-mit-slash-apex-)
+    - [Moderation mit Slash (Apex-Befehle)](#moderation-mit-slash-apex-befehle-und-funktion)
     - [Unser Ticketsystem](#unser-ticketsystem-)
     - [Verwendung und Beispiele](#anwendung-und-bespiele-)
 ---
