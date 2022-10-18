@@ -279,9 +279,6 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 * `/apex user user:@Tim-nT`<br>
     * Finde heraus mit welchem Apex-Account ein Nutzer verknüpft ist.<br>
     Optional Nutzbar mit der Origin-ID um einen Discord-Nutzer zu finden.<p>
-* `/apex unlink user:@Tim-nT`<br>
-    * Entfernt die verlinkung zu einem Nutzer.<br>
-    Richtlinie: Sollte ein Nutzer gebannt o.ä. werden so die Origin Account-ID zu blacklisten!<p>
 * `/apex api origin_id:12345678 plattform:PC`<br>
     * Eine direkte abfrage um etwaige Informationen über einen Account zu bekommen.<p>
 * `/apex autorank state:Aktivieren user:@Tim-nT`<br>
@@ -289,11 +286,21 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 * `/apex count`<br>
     * Zeigt die wie viele Nutzer aktuell verifiziert sind<br><br>
 
-    <br>
-* `/blacklist add origin_id:12345678 reason:Cheater in Apex Discord-ID:1234567890 siehe ban oder case-ID 1234`<br>
-    * Setzt einen Apex-Account auf die Blacklist sodass ein Nutzer sich nicht mehr mit diesem Account verlinken kann! Hierbei ist die Discord-ID des ehemaligen Nutzers wichtig da sonst eine eindeutige identifizierzung nicht möglich ist! Zusätzlich ist eine **Notiz** zu dem Nutzer mit der Origin_ID o.ä. und einer Begründung wie "banned deswegen blacklist" pflicht!<p>
+### **Vorgehensweise bei Unlinkungen**:
+#### #1 Aktuellen Apex-Account mit `/apex user` abfragen und die Apex-ID kopieren 
+#### #2 Eine Notiz mit `/note` mit der Apex-ID zu dem jeweiligen Benutzer hinzufügen. (`/note user:@Tim-nT reason:Hat seinen Account unlinken lassen weil Smurf. Apex-ID: 2423448648`)
+#### #3 Die Apex-ID mit `/blacklist` zu unserer internen Blacklist hinzufügen!
+#### #4 Der Account ist nach danach mit `/unlink` zu unliken!<br><br>
+
+* `/apex unlink user:@Tim-nT`<br>
+    * Entfernt die verlinkung zu einem Nutzer.<br>
+    Richtlinie: Sollte ein Nutzer gebannt o.ä. werden so die Origin Account-ID zu blacklisten!<p>
+* `/blacklist add origin_id:12345678 reason:Cheater in Apex Discord-ID:275258547749650433 siehe ban oder case-ID 1234`<br>
+    * Setzt einen Apex-Account auf die Blacklist sodass ein Nutzer sich nicht mehr mit diesem Account verlinken kann!<br>
+    **Wichtig:** Hierbei ist die Discord-ID des ehemaligen Nutzers **oder** die Case-ID notwendig, da sonst eine eindeutige identifizierzung nicht möglich ist!!
+    <p>
 * `/blacklist show account_id:12345678`<br>
-    * Lasse dir einen Eintrag aus der Blacklst anzeigen.<p>
+    * Lasse dir einen Eintrag aus der Blacklist anzeigen.<p>
 * `/blacklist remove origin_id:12345678`<br>
     * Entferne einen Account von der Blacklist sodass ein Nutzer sich wieder mit dem Account verknüpfen kann.<br>
     Im besten Fall wird hierbei nochmal Rücksprache mit den älteren Mods gehälten.
