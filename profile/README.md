@@ -53,6 +53,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 - /ping
 - /geburstag
 - /patreon
+- /share
 
 ---
 <br>
@@ -73,6 +74,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 - /unmute
 - /user
 - /role
+- /prole
 
 <br>
 
@@ -187,7 +189,21 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 * `/giveaway create`
     * Erstelle ein Giveaway <br>
     **Verwendung:**<br>
-    [`/color create`](https://i.imgur.com/wMp0Pvf.png)<p>
+    [`/color create`](https://i.imgur.com/wMp0Pvf.png)<p><br>
+*Die `/share` Befehle sind erst ab Patreon Tier 3 ausführbar!*
+* `/share list`
+    * Zeigt dir eine Liste von deiner geteilten Custom Patreon Rolle an.<br>
+    **Verwendung:**<br>
+    `/share list`<p>
+* `/share add`
+    * Fügt einem User deine Custom Patreon Rolle hinzu.<br>
+    **Verwendung:**<br>
+    `/share add user: @user | ID`<p>
+* `/share remove`
+    * Entfernt einem User deine Custom Patreon Rolle.<br>
+    **Verwendung:**<br>
+    `/share remove: @user | ID`<p>
+ 
 ---
 <br>
 <br>
@@ -270,6 +286,20 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     * Entferne jemanden eine Rolle. Es kann sowohl eine ID als auch eine Mention der Rolle/ des Nutzers angegeben werden.<br>
     **Verwendung:**<br>
     [`/role take rolle:@Admin nutzer:@ALG`](https://i.imgur.com/1rcZFZ6.png)
+* `/prole info`
+        * Erhalte Informationen über die Custom Rolle eines Users.<br>
+        **Verwendung:**<br>
+        [`/prole info user: @user | ID`](https://i.imgur.com/WMGMXoS.png)
+* `/prole add`
+        * Übertrage die Custom Rolle auf einen User.<br>
+        **Verwendung:**<br>
+        [`/prole add user: @user | ID role: @role`](https://i.imgur.com/bJO1moP.png)
+* `/prole remove`
+        * Entferne die Custom Rolle eines Users.<br>
+        **Verwendung:**<br>
+        [`/prole remove user: @user | ID`](https://i.imgur.com/ZGNr5Je.png)
+  
+        
 
 ---
 [Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
@@ -304,7 +334,29 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 * `/blacklist remove origin_id:12345678`<br>
     * Entferne einen Account von der Blacklist sodass ein Nutzer sich wieder mit dem Account verknüpfen kann.<br>
     Im besten Fall wird hierbei nochmal Rücksprache mit den älteren Mods gehälten.
+        
+        
+### **Vorgehensweise bei Last-Split-Rollen**:
+#### #1 Alle User von sämtlichen Last-Split-Rollen entfernen (Am Besten schon am Vortag erledigen!)
+#### #2 Umbennenung der Rollen
+#### #3 Automatische-Rangrollenvergabe deaktivieren **(Erst kurz vor Split-Ende)**
+#### #4 Last-Split-Rollen vergeben<br><br>
 
+* 1. `/role all role: @role remove: true`<br>
+        * Entfernt alle User der angegebenen Rolle **(Dyno-Bot auswählen!)**<br>
+        Dieser Befehl muss also mindestens **8 Mal** ausgeführt werden<br>
+* 2. Nenne die Last Split Rollen um: S14.2-BR-Master -> S15.1-BR-Master
+* 3. `/apex vtoggle`<br>
+        * Deaktiviert für User die Verifizierung.
+* 4. Die folgenden Befehle weisen User mit der aktuellen Rang-Rolle die entsprechende Last-Split-Rolle zu.<br>
+        * `,role in 628715049392799755, +991407728075485235` (Predator-BR)<br>
+        * `,role in 871782582029807616, +991407740943601724` (Predator-Arena)<br>
+        * `,role in 673539726027915275, +991407745037254826` (Master-BR)<br>
+        * `,role in 871782405869023292, +991407748891816036` (Master-Arena)<br>
+        * `,role in 628714695242678313, +991407754050814014` (Diamond-BR)<br>
+        * `,role in 871782213635674182, +991408150337032192` (Diamond-Arena)<br>
+        * `,role in 628715389144137732, +1006564768838078565` (Platinum-BR)<br>
+        * `,role in 871781997276717056, +1006564445205569607` (Platinum-Arena)<br>
 
 
 ---
