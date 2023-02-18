@@ -40,7 +40,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 - /channel transfer<br>
 
 ---
-[Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
+[Hier gehts zum Anfang][go_to_start]<br><br>
 
 ## **Befehle Außerhalb der Voice-Channel:** <img src="https://cdn.discordapp.com/emojis/919244135779688549.png?size=96" height=18><br>
 *Befehle welche von jedem genutzt werden können und man in keinem Voice-Channel sein muss.*<br>
@@ -82,21 +82,13 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 - /clear
 
 ---
-[Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
+[Hier gehts zum Anfang][go_to_start]<br><br>
 ### **Normale Befehle:**<br>
 <!-- Normale Commands für Mods -->
 *Diese normalen Befehle funktionieren nicht mit Slash, die unten sind Embed welche bei dem posten permanent bestehen bleiben.*<br>
 [Mehr Information über diese Befehle.](#nomale-befehle)
 
-- 18<br>
-- expert (skilled)<br>
-- nexttry (try)<br>
-- nickname<br>
-- rank (ranked)<br>
-- scam<br>
-- sup<br>
-- supporttime (time)<br>
-- ticktsystem (ts)<br>
+
 ---
 <br>
 <br>
@@ -110,7 +102,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 - `/ticket remove user:@Tim-nT` - Entfernt einen Nutzer/ Rolle von einem Ticket.
 ---
 ---
-[Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
+[Hier gehts zum Anfang][go_to_start]<br><br>
 <br> 
 
 
@@ -165,7 +157,7 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     **Verwendung:**<br>
     [`/lfg plattform:pc text:Suche eine Spieler`](https://i.imgur.com/Fh8HoxB.png)<p>
 ---
-[Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
+[Hier gehts zum Anfang][go_to_start]<br><br>
 
 ### **Slash-Befehle außerhalb der temporären Channel:**
 *Hier findest du alle Befehle, deren Anwendung und entspr. Beispiele.*
@@ -209,12 +201,12 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 <br>
 
 ###  **Moderation mit Slash: 🔨**
-*Hier findest du Beispiele für die Anwendung der Moderations-Befehle. Jeder Befehl kann auch mit der ID des Nutzers genutzt werden. Wichtig ist hierbei dass du den Bot auswählst und den Befehl nicht einfach in den Chat schreibst. Nicht jeder Befehl ist für Moderatoren auf Probe, aber alle sind ab Moderator möglich.*
+*Hier findest du Beispiele für die Anwendung der Moderations-Befehle. Jeder Befehl kann auch mit der ID des Nutzers genutzt werden. Wichtig ist hierbei, dass du den Bot auswählst und den Befehl nicht einfach in den Chat schreibst. Nicht jeder Befehl ist für Moderatoren auf Probe, aber alle sind ab Moderator möglich.*
 * `/channel move`
     * Verschiebt alle Nutzer eines Talk-Channels in einen neuen.<br>
 * `/ban`
     * Bannt einen Nutzer permanent von dem Discord. Der Nutzer bekommt das den Grund per DM mitgeteilt. Es wird ein Grund benötigt, da sonst nicht gebannt werden kann. Optional kann man noch angeben von wie viele Tage zurück man die Nachrichten des Nutzers löschen möchte (Standard ist 1). Bans sind immer nachvollziehbar zu beschreiben. Zusätzlich sollte, wenn es die Situation bietet, man einen Screenshot als Nachweis anhängen.<br>
-    Gebe nur */ban nutzer:@Tim-nT* ein um noch den Grund o.ä. zu ändern.<br>
+    Gebe nur */ban nutzer:@Tim-nT* um einen Ban-Antrag zu stellen. Der Ban-Antrag ist ebenfalls für Probe-Moderatoren nutzbar.<br>
     **Verwendung:**<br>
     [`/ban nutzer:@Tim-nT grund:Kein guter Modeartor.`](https://i.imgur.com/ADr78po.png)<p>
 * `/scamban`
@@ -222,10 +214,9 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     **Verwendung:**<br>
     [`/scamban nutzer:@Tim-nT`](https://i.imgur.com/sH4sZyg.png)
 * `/unban`
-    * Entbannt einen Nutzer. Ebenfalls wird auch hier **immer** ein Grund benötigt um einen Nutzer zu entbannen.<br>
+    * Entbannt einen Nutzer. Ebenfalls wird auch hier **immer** ein Grund benötigt um einen Nutzer zu entbannen. Eine Einladung wird ebenfalls zusätzlich verschickt.<br>
     **Verwendung:**<br>
     [`/unban nutzer:@Tim-nT grund:Ist doch ein guter Moderator.`](https://i.imgur.com/VtLuUkQ.png)<p>
-
 * `/modlog user`
     * Frage die Modlogs eines Nutzers ab. Ein Nutzer hat ModLogs wenn dieser verwarnt, gebannt, entbannt ..etc.. wurde. Modslogs können nur Senior-Moderatoren aufwärts gelöscht werden.<br>
     **Verwendung:**<br>
@@ -250,6 +241,10 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     * Verwarnt einen Nutzer mit einem Grund welcher ihm dann per DM geschickt wird. Der Grund wird hier ebenfalls benötigt. <br>
     **Verwendung:**<br>
     [`/warn nuzer:275258547749650433 grund:Verhalten im Chat geht nicht klar`](https://i.imgur.com/zRGqkyH.png)<p>
+* `/kick`
+    * Kickt einen Nutzer vom Server.<br>
+    **Verwendung:**<br>
+    [/kick nutzer:275258547749650433 grund:Mag Katzen](https://i.imgur.com/f8taZsp.png)<p>
 * `/mute`
     * Mute jemanden permanent. (Over Time kommt zu einem späteren Zeitpunkt.)<br>
     **Verwendung:**<br>
@@ -285,24 +280,24 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 * `/role take`
     * Entferne jemanden eine Rolle. Es kann sowohl eine ID als auch eine Mention der Rolle/ des Nutzers angegeben werden.<br>
     **Verwendung:**<br>
-    [`/role take rolle:@Admin nutzer:@ALG`](https://i.imgur.com/1rcZFZ6.png)
+    [`/role take rolle:@Admin nutzer:@ALG`](https://i.imgur.com/1rcZFZ6.png)<p>
 * `/prole info`
-        * Erhalte Informationen über die Custom Rolle eines Users.<br>
-        **Verwendung:**<br>
-        [`/prole info user: @user | ID`](https://i.imgur.com/WMGMXoS.png)
+    * Erhalte Informationen über die Custom Rolle eines Users.<br>
+    **Verwendung:**<br>
+    [`/prole info user: @user | ID`](https://i.imgur.com/WMGMXoS.png)<p>
 * `/prole add`
-        * Übertrage die Custom Rolle auf einen User.<br>
-        **Verwendung:**<br>
-        [`/prole add user: @user | ID role: @role`](https://i.imgur.com/bJO1moP.png)
+    * Übertrage die Custom Rolle auf einen User.<br>
+    **Verwendung:**<br>
+    [`/prole add user: @user | ID role: @role`](https://i.imgur.com/bJO1moP.png)<p>
 * `/prole remove`
-        * Entferne die Custom Rolle eines Users.<br>
-        **Verwendung:**<br>
+    * Entferne die Custom Rolle eines Users.<br>
+    **Verwendung:**<br>
         [`/prole remove user: @user | ID`](https://i.imgur.com/ZGNr5Je.png)
   
         
 
 ---
-[Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
+[Hier gehts zum Anfang][go_to_start]<br><br>
 
 ### **Moderation mit Slash (Apex-Befehle und Funktion):**
 <!-- Alles rund um die "Apex" Commands-->
@@ -320,7 +315,8 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 #### #1 Aktuellen Apex-Account mit `/apex user` abfragen und die Apex-ID kopieren 
 #### #2 Eine Notiz mit `/note` mit der Apex-ID zu dem jeweiligen Benutzer hinzufügen. (`/note user:@Tim-nT reason:Hat seinen Account unlinken lassen weil Smurf. Apex-ID: 2423448648`)
 #### #3 Die Apex-ID mit `/blacklist` zu unserer internen Blacklist hinzufügen!
-#### #4 Der Account ist nach danach mit `/unlink` zu unliken!<br><br>
+#### #4 Der Account ist nach danach mit `/unlink` zu unliken!<br>
+*Notiz: Es ist dem Nutzer nicht gestattet zu wissen das wir die Accounts auf eine blacklist packen!*<br><br>
 
 * `/apex unlink user:@Tim-nT`<br>
     * Entfernt die verlinkung zu einem Nutzer.<br>
@@ -342,61 +338,71 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
 #### #3 Automatische-Rangrollenvergabe deaktivieren **(Erst kurz vor Split-Ende)**
 #### #4 Last-Split-Rollen vergeben<br><br>
 
-* 1. `/role all role: @role remove: true`<br>
-        * Entfernt alle User der angegebenen Rolle **(Dyno-Bot auswählen!)**<br>
-        Dieser Befehl muss also mindestens **8 Mal** ausgeführt werden<br>
-* 2. Nenne die Last Split Rollen um: S14.2-BR-Master -> S15.1-BR-Master
-* 3. `/apex vtoggle`<br>
-        * Deaktiviert für User die Verifizierung.
-* 4. Die folgenden Befehle weisen User mit der aktuellen Rang-Rolle die entsprechende Last-Split-Rolle zu.<br>
-        * `,role in 628715049392799755, +991407728075485235` (Predator-BR)<br>
-        * `,role in 871782582029807616, +991407740943601724` (Predator-Arena)<br>
-        * `,role in 673539726027915275, +991407745037254826` (Master-BR)<br>
-        * `,role in 871782405869023292, +991407748891816036` (Master-Arena)<br>
-        * `,role in 628714695242678313, +991407754050814014` (Diamond-BR)<br>
-        * `,role in 871782213635674182, +991408150337032192` (Diamond-Arena)<br>
-        * `,role in 628715389144137732, +1006564768838078565` (Platinum-BR)<br>
-        * `,role in 871781997276717056, +1006564445205569607` (Platinum-Arena)<br>
+1. `/role all role:@role remove:true`<br>
+    * Entfernt alle User der angegebenen Rolle **(Dyno-Bot auswählen!)**<br>
+    Dieser Befehl muss also mindestens **4 Mal** ausgeführt werden<br>
+2. Nenne die Last Split Rollen um: S14.2-BR-Master -> S15.1-BR-Master
+3. `/apex vtoggle`<br>
+    * Deaktiviert für User die Verifizierung.
+4. Die folgenden Befehle weisen User mit der aktuellen Rang-Rolle die entsprechende Last-Split-Rolle zu.<br>
+    * `/role in in_role:628715049392799755 role:991407728075485235` (Predator-BR)<br>
+    * `/role in in_role:673539726027915275 role:991407745037254826` (Master-BR)<br>
+    * `/role in in_role:628714695242678313 role:991407754050814014` (Diamond-BR)<br>
+    * `/role in in_role:628715389144137732 role:1006564768838078565` (Platinum-BR)<br>
 
 
 ---
-[Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br><br>
+[Hier gehts zum Anfang][go_to_start]<br><br>
 
 ### **Nomale Befehle:**
 *Diese normalen Befehle geben ein Embed aus und deine Nachricht welche den Befehl auslöst wird direkt gelöscht. Diese Befehle sind hilfreich um in Tickets immer mit der gleichen Nachricht zu antworten.*<br>
 *Tipp: Ihr könnt auch Nutzer "silent-pingen" indem ihr einfach an eurem Befehl ein @user schreibt.*<p>
 Alle folgenden Commands werden mit einer @ Mention an den Bot ausgeführt!<br>
-Beispiel: `@ALG 18`
+Beispiel: `@ALG 18`<br>
+
 * `18`
-    * Alias: %18+, %ü18<br>
+    * Alias: `ü18`, `18+`<br>
     Fragt ein Nutzer nach Ü18 kann man diesen Befehl nutzen.<br>
     [Embed ansehen](https://i.imgur.com/p5581qT.png)<p>
 * `expert`
-    * Alias: %skilled<br>
+    * Alias: `skilled`<br>
     Ein Nutzer macht ein Ticket auf oder fragt im Chat wie man die Skilled oder Expert-Rolle bekommen kann.<br>
     [Embed ansehen](https://i.imgur.com/06I5XQw.png)<p>
+* `master`
+    * Alias: `mas`, `pred`, `predator`, `dia`, `diamond` <br>
+    Ein Hinweis darauf, dass sich Nutzer die Diamond+ Rolle nur über das Verifizierungssystem abholen können.<br>
+    [Embed ansehen](https://i.imgur.com/mAtW9Mq.png)<p>
 * `nexttry`
-    * Alias: %try, %next<br>
-    Hat ein Nutzer ein Ticket eröffnet aber bisher immer noch nichts geschreiben. Ihr diesen Befehl nutzen um den Nutzer darauf hinzuweisen. Empfehlenswert mit Silent-Ping<br>
+    * Alias: `try`, `next`<br>
+    Hat ein Nutzer ein Ticket eröffnet aber bisher immer noch nichts geschreiben, könnt ihr diesen Befehl nutzen um den Nutzer darauf hinzuweisen. Empfehlenswert mit @silent-Ping<br>
     [Embed ansehen](https://i.imgur.com/gUuqKuX.png)<p>
 * `nickname`
-    * Der Nickname eines Nutzers verstößt gegen die ToS von Disord bzw. gegen unsere [#server-regeln](https://discord.com/channels/542304652381782016/560975462319390720) so ist diese Embed am besten.<br>
+    * Alias: `hsnick`<br>
+    Der Nickname eines Nutzers verstößt gegen die ToS von Disord bzw. gegen unsere [#server-regeln](https://discord.com/channels/542304652381782016/560975462319390720) so ist diese Embed am besten.<br>
     [Embed ansehen](https://i.imgur.com/OTn5bhS.png)<p>
+* `beleidigung`
+    * Alias: `flame` <br>
+    Für Tickets bei dem ein Nutzer reportet wurde.<br>
+    [Embed ansehen](https://i.imgur.com/Y4mluJL.png)<p>
 * `rank`
-    * Postet ein permanentes Embed mit dem Hinweis darauf, wo die Ranked-Rollen zu finden sind.<br>
+    * Alias: `ranked` <br>
+    Postet ein permanentes Embed mit dem Hinweis darauf, wo die Ranked-Rollen zu finden sind.<br>
     [Embed ansehen](https://i.imgur.com/iPf0CBI.png)<p>
 * `scam`
     * Sollte ein Nutzer einen Scam reporten.<br>
     [Embed ansehen](https://i.imgur.com/e1lz90Q.png)<p>
 * `sup`
-    * Falls die Bearbeitung es Ticket etwas dauert oder man investigieren muss ist dieser Befehl hilfreich.<br>
+    * Alias: `support`<br>
+    Falls die Bearbeitung es Ticket etwas dauert oder man investigieren muss ist dieser Befehl hilfreich.<br>
     [Embed ansehen](https://i.imgur.com/7zCX0Ht.png)<p>
 * `time`
     * Ein Nutzer pingt das Team oder fragt nach wann endlich Supportet wird.<br>
     [Embed ansehen](https://i.imgur.com/3l1t9Av.png)<p>
 * `ticktsystem`
-    * Alias: %ts<br>
-    Dieser Befehl postet ebenfalls ein Embed, ist allerdings nur für den internen Bereich gedacht welches er dir ein Embed mit der Übersicht alles `%` Befehle gibt.<br>
+    * Alias: ts<br>
+    Probier einfach auch was das ist.<br>
 ---
-[Hier gehts zum Anfang](#apex-legends-germany-bot-commands-)<br>
+[Hier gehts zum Anfang][go_to_start]<br>
 
+
+[go_to_start]: #apex-legends-germany-bot-commands-
