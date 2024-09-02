@@ -179,9 +179,9 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     **Verwendung:**<br>
     [`/color color_hex:EB144D`]()<p>
 * `/giveaway create`
-    * Erstelle ein Giveaway <br>
+    * Erstelle ein Giveaway. Diese Aktion ist ab Senior-Moderator begrenzt.<br>
     **Verwendung:**<br>
-    [`/color create`](https://i.imgur.com/wMp0Pvf.png)<p><br>
+    [`/giveaway create channel:#giveaway laufzeit: 2d gewinner_anzahl:1 preis:Der Preis zusatz: Sponsored by a User`](https://i.imgur.com/wMp0Pvf.png)<p><br>
 *Die `/share` Befehle sind erst ab Patreon Tier 3 ausführbar!*
 * `/share list`
     * Zeigt dir eine Liste von deiner geteilten Custom Patreon Rolle an.<br>
