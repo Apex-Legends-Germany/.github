@@ -323,7 +323,8 @@ Es ist im Prinzip ganz einfach: `.` und `vc/` sind Zeichen auf die der Bot immer
     Richtlinie: Sollte ein Nutzer gebannt o.ä. werden so die Origin Account-ID zu blacklisten!<p>
 * `/blacklist add origin_id:12345678 reason:Cheater in Apex Discord-ID:275258547749650433 siehe ban oder case-ID 1234`<br>
     * Setzt einen Apex-Account auf die Blacklist sodass ein Nutzer sich nicht mehr mit diesem Account verlinken kann!<br>
-    **Wichtig:** Hierbei ist die Discord-ID des ehemaligen Nutzers **oder** die Case-ID notwendig, da sonst eine eindeutige identifizierzung nicht möglich ist!!
+    **Wichtig:** Hierbei ist die Discord-ID des ehemaligen Nutzers **oder** die Case-ID notwendig, da sonst eine eindeutige identifizierzung nicht möglich ist!!<br>
+    Optional: `discord_id: 12345678` - blacklistet den User direkt. Er kann sich nicht mehr mehr verlinken.
     <p>
 * `/blacklist show account_id:12345678`<br>
     * Lasse dir einen Eintrag aus der Blacklist anzeigen.<p>
